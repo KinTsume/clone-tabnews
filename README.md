@@ -33,3 +33,21 @@ Installs the given packages at the given versions
 The scripts configured in package.json are used like a shortcut to run commands. 
 
 In the case of the command to start a next.js dev web server (next dev), the next.js is installed locally on the project not globally so the terminal cant find the command and throws an error. To avoid that we use npm to run the command instead (npm run <script name>).
+
+## VS code
+
+### port forwarding
+
+It's possible to configure a port to access the app on another device forwarding a port an setting its visibility to public. The 'ports' window is in the same tab as the terminal in vs code's default layout.
+
+### VS code Timeline
+
+VS Code have a timeline that shows all the changes on the project even if the program was closed. Clicking in one of those changes shows the difference between the file back then and the current file.
+
+## Git
+
+- |git log|: lista os _commits_ do repositório
+- |git add|: sobe alterações para a _staging area_
+- |git commit|: realiza novos _commits_
+- |git commit --amend|: substitui o _commit_ anterior por um novo, mas aproveita as alterações
+- |git diff|: calcula a diferença entre as versões/alterações dos arquivos
