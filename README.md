@@ -42,12 +42,12 @@ It's possible to configure a port to access the app on another device forwarding
 
 ### VS code Timeline
 
-VS Code have a timeline that shows all the changes on the project even if the program was closed. Clicking in one of those changes shows the difference between the file back then and the current file.
+VS Code have a timeline that shows all the changes on the project even if the program was closed. Clicking in one of those changes shows the difference between the file back then and the current.
 
 ## Git
 
-- |git log|: lista os _commits_ do repositório
-- |git add|: sobe alterações para a _staging area_
-- |git commit|: realiza novos _commits_
-- |git commit --amend|: substitui o _commit_ anterior por um novo, mas aproveita as alterações
-- |git diff|: calcula a diferença entre as versões/alterações dos arquivos
+- |git log|: list the repository _commits_
+- |git add|: add the changes to the _staging area_
+- |git commit|: make new _commits_
+- |git commit --amend|: replace the previous _commit_ with a new one, but keep the changes
+- |git diff|: Calculate the difference between versions/changes on the files
