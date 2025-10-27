@@ -51,3 +51,7 @@ VS Code have a timeline that shows all the changes on the project even if the pr
 - |git commit|: make new _commits_
 - |git commit --amend|: replace the previous _commit_ with a new one, but keep the changes
 - |git diff|: Calculate the difference between versions/changes on the files
+- |git commit -m "mensagem"|: Shortcut to make new commits with the message written as part of the command
+- |git push|: Push local changes to the origin repository
+- |git push --force|: Force the push of the local changes to the repository
+- |git push -f|: Shorthand form of the previous command
