@@ -55,3 +55,7 @@ VS Code have a timeline that shows all the changes on the project even if the pr
 - |git push|: Push local changes to the origin repository
 - |git push --force|: Force the push of the local changes to the repository
 - |git push -f|: Shorthand form of the previous command
+
+## CD - Continuous Deployment
+
+Vercel has a tool to deploy an app automaticaly on their platform. Just making a push to the origin main branch and it will detect and deploy the app.
