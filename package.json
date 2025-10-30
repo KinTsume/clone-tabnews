@@ -4,7 +4,7 @@
   "description": "A project to clone the tabnews.com.br site and study its concepts",
   "main": "index.js",
   "scripts": {
-   "dev": "next dev"
+    "dev": "next dev"
   },
   "author": "",
   "license": "MIT",
