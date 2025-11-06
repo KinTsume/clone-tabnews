@@ -44,6 +44,11 @@ It's possible to configure a port to access the app on another device forwarding
 
 VS Code have a timeline that shows all the changes on the project even if the program was closed. Clicking in one of those changes shows the difference between the file back then and the current.
 
+### EditorConfig
+
+It's used to apply rules in the editor configuration via a ".editorconfig" text file. In VS Code, it's needed to install the EditorConfig extension.
+EditorConfig is very flexible as is possible to make one set of rules for each directory in the project.
+
 ## Git
 
 - |git log|: list the repository _commits_
@@ -59,3 +64,9 @@ VS Code have a timeline that shows all the changes on the project even if the pr
 ## CD - Continuous Deployment
 
 Vercel has a tool to deploy an app automaticaly on their platform. Just making a push to the origin main branch and it will detect and deploy the app.
+
+## Github
+
+### Issues
+
+Dentro de uma issue é possível cirar uma checkbox usando "- [ ] (nome da tarefa)" para facilitar a visualização do progresso da issue. 
