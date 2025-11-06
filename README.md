@@ -70,4 +70,4 @@ Vercel has a tool to deploy an app automaticaly on their platform. Just making a
 
 ### Issues
 
-Dentro de uma issue é possível cirar uma checkbox usando "- [ ] (nome da tarefa)" para facilitar a visualização do progresso da issue.
+Its possible to create a checkbox inside an issue using "- [ ] (task)" to track the issue progress.
