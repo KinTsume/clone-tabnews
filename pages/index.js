@@ -1,10 +1,6 @@
 import Image from "next/image";
 import { useState, useRef } from "react";
 
-function testing() {
-  global();
-}
-
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
