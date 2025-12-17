@@ -71,3 +71,12 @@ Vercel has a tool to deploy an app automaticaly on their platform. Just making a
 ### Issues
 
 Its possible to create a checkbox inside an issue using "- [ ] (task)" to track the issue progress.
+
+## Docker
+
+Para subir o container:
+
+- `docker compose up`
+
+Subir o container com o arquivo de configuração fora da pasta raiz:
+-`docker compose -f (caminho do arquivo) up
