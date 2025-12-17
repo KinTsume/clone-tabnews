@@ -74,9 +74,15 @@ Its possible to create a checkbox inside an issue using "- [ ] (task)" to track 
 
 ## Docker
 
-Para subir o container:
+To start the container:
 
 - `docker compose up`
 
-Subir o container com o arquivo de configuração fora da pasta raiz:
--`docker compose -f (caminho do arquivo) up
+To start the container when the `compose.yaml` file isn't in the root folder:
+-`docker compose -f (path) up
+
+Ivestigation Day 18 class 5
+
+- Question: why when changing the environment variable `POSTGRES_DATABASE` to `POSTGRES_DB` in the `.env` file, the connection with the database still work?
+
+- Investigation: docker compose seems to use a default value of `postgres` for user when its not given in the config file. Changing the env variable name makes the `database.js` `database` config field receive a value of `undefined` and then by default this field is set to the env variable defined in `POSTGRES_USER` that happens to be the same value of `postgres` that was being used before changing the env variable name.
