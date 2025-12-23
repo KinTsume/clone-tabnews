@@ -81,7 +81,7 @@ To start the container:
 To start the container when the `compose.yaml` file isn't in the root folder:
 -`docker compose -f (path) up
 
-Ivestigation Day 18 class 5
+Ivestigation Day 18 class5
 
 - Question: why when changing the environment variable `POSTGRES_DATABASE` to `POSTGRES_DB` in the `.env` file, the connection with the database still work?
 
