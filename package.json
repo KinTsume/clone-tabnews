@@ -4,7 +4,7 @@
   "description": "A project to clone the tabnews.com.br site and study its concepts",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run services:up && next dev",
+    "dev": "npm run services:up && npm run wait-for-postgres && npm run migrations:up && next dev",
     "services:up": "sudo docker compose -f infra/compose.yaml up -d",
     "services:stop": "sudo docker compose -f infra/compose.yaml stop",
     "services:down": "sudo docker compose -f infra/compose.yaml down",
@@ -12,8 +12,9 @@
     "lint:fix": "prettier --write .",
     "test": "jest --runInBand",
     "test:watch": "jest --watchAll --runInBand",
-    "migration:create": "node-pg-migrate -m infra/migrations create",
-    "migration:up": "node-pg-migrate -m infra/migrations --envPath .env.development up"
+    "migrations:create": "node-pg-migrate -m infra/migrations create",
+    "migrations:up": "node-pg-migrate -m infra/migrations --envPath .env.development up",
+    "wait-for-postgres": "node infra/scripts/wait-for-postgres.js"
   },
   "author": "",
   "license": "MIT",
