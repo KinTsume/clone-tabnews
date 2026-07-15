@@ -22,8 +22,8 @@ function Home() {
       </h1>
       {isOpen ? (
         <div>
-          <h1>Oh no! It's a rick rolling mimic!</h1>
-          <Image src={"/mimic.png"} width={250} height={250}></Image>
+          <h1>Oh no! It&apos;s a rick rolling mimic!</h1>
+          <Image src={"/mimic.png"} alt="" width={250} height={250}></Image>
           <video
             style={{
               position: "absolute",
@@ -44,6 +44,7 @@ function Home() {
         <Image
           onClick={() => openChest()}
           src={"/closed-chest.png"}
+          alt=""
           width={250}
           height={250}
         ></Image>
