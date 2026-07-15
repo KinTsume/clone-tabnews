@@ -31,7 +31,7 @@ async function getNewClient() {
   return client;
 }
 
-export default {
+const database = {
   query,
   getNewClient,
 };
@@ -45,3 +45,5 @@ function getSSLValues() {
 
   return process.env.NODE_ENV === "production" ? true : false;
 }
+
+export default database;
