@@ -1,7 +1,8 @@
-import database from "infra/database.js";
+import database from "../../../../infra/database";
 
 export default async function status(request, response) {
   //Todo: implementar o retorno da versão do postgres, conexões máximas, conexões usadas. Implementar testes também.
+  let varsomthg;
   const updatedAt = new Date().toISOString();
   const databaseVersion = await database
     .query("SHOW server_version;")
