@@ -30,8 +30,8 @@ function UpdatedAt() {
     refreshInterval: 2000,
   });
 
-  const maxConnections = data.dependencies.database.max_connections;
-  const openedConnections = data.dependencies.database.opened_connections;
+  const maxConnections = data?.dependencies.database.max_connections;
+  const openedConnections = data?.dependencies.database.opened_connections;
 
   let updatedAtText = "Carregando...";
   let versionText = "Carregando...";
