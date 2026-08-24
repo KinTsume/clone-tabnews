@@ -5,8 +5,6 @@ beforeAll(async () => {
   await orchestrator.clearDatabase();
 });
 
-describe("GET /migrations", () => {});
-
 describe("GET /api/v1/migrations", () => {
   describe("Anonymous user", () => {
     test("Retrieving pending migrations", async () => {
