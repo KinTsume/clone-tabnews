@@ -2,7 +2,8 @@
   "compilerOptions": {
     "paths": {
       "infra/*": ["./infra/*"],
-      "tests/*": ["./tests/*"]
+      "tests/*": ["./tests/*"],
+      "models/*": ["./models/*"]
     }
   }
 }
