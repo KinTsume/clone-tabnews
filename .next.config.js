@@ -1,6 +1,8 @@
 const nextConfig = {
-  outputFileTracingIncludes: {
-    "/api/v1/migrations": ["./infra/migrations/**/*"],
+  experimental: {
+    outputFileTracingIncludes: {
+      "*": ["./infra/migrations/**/*"],
+    },
   },
 };
 
